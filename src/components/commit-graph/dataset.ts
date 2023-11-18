@@ -2242,3 +2242,19 @@ export const datasetList = [
 ];
 
 export const dayList = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+
+export const monthList = [
+  { value: "Nov", colSpan: 3 },
+  { value: "Dec", colSpan: 4 },
+  { value: "Jan", colSpan: 5 },
+  { value: "Feb", colSpan: 4 },
+  { value: "Mar", colSpan: 4 },
+  { value: "Apr", colSpan: 5 },
+  { value: "May", colSpan: 4 },
+  { value: "Jun", colSpan: 4 },
+  { value: "Jul", colSpan: 5 },
+  { value: "Aug", colSpan: 4 },
+  { value: "Sep", colSpan: 4 },
+  { value: "Oct", colSpan: 5 },
+  { value: "Nov", colSpan: 2 },
+];

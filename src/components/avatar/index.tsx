@@ -4,5 +4,9 @@ import avatarImg from "../../image/avatar.jpg";
 import styles from "./index.module.scss";
 
 export const Avatar: React.FC = () => {
-  return <img className={clsx(styles.avatar)} src={avatarImg} alt="avatar" />;
+  return (
+    <div className={clsx(styles.avatar)}>
+      <img src={avatarImg} alt="avatar" />
+    </div>
+  );
 };
