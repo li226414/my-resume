@@ -1,6 +1,6 @@
 import React from "react";
 import clsx from "clsx";
-import avatarImg from "../../../img/avatar.jpg";
+import avatarImg from "../../image/avatar.jpg";
 import styles from "./index.module.scss";
 
 export const Avatar: React.FC = () => {
