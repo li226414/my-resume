@@ -7,6 +7,10 @@ import {
   SkillList,
   Introduction,
   Educational,
+  OpenSource,
+  WorkExperience,
+  ProjectExperience,
+  Thanks,
 } from "./components";
 import styles from "./App.module.scss";
 
@@ -20,6 +24,10 @@ const App: React.FC = () => {
       <SocialInfo />
       <Educational />
       <SkillList />
+      <OpenSource />
+      <WorkExperience />
+      <ProjectExperience />
+      <Thanks />
     </div>
   );
 };

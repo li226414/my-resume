@@ -5,3 +5,7 @@ export * from "./introduction";
 export * from "./social-info";
 export * from "./skill-list";
 export * from "./educational";
+export * from "./open-source";
+export * from "./work-experience";
+export * from "./project-experience";
+export * from "./thanks";
