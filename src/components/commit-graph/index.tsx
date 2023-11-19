@@ -11,8 +11,8 @@ export const CommitGraph: React.FC = () => {
         <thead>
           <tr style={{ height: 13 }}>
             <td style={{ width: 28 }} />
-            {monthList.map<React.ReactNode>(item => (
-              <td className={styles.contributionCalendarLabel} colSpan={item.colSpan}>
+            {monthList.map<React.ReactNode>((item, i) => (
+              <td className={styles.contributionCalendarLabel} colSpan={item.colSpan} key={i}>
                 <span style={{ position: "absolute", top: 0 }}>{item.value}</span>
               </td>
             ))}

@@ -1,5 +1,13 @@
 import React from "react";
-import { Avatar, CommitGraph, PersonInfo, SocialInfo, SkillList, Introduction } from "./components";
+import {
+  Avatar,
+  CommitGraph,
+  PersonInfo,
+  SocialInfo,
+  SkillList,
+  Introduction,
+  Educational,
+} from "./components";
 import styles from "./App.module.scss";
 
 const App: React.FC = () => {
@@ -10,6 +18,7 @@ const App: React.FC = () => {
       <CommitGraph />
       <Introduction />
       <SocialInfo />
+      <Educational />
       <SkillList />
     </div>
   );
