@@ -43,7 +43,12 @@ export const OpenSource: React.FC = () => {
             <div className={styles.star}>{repo.star}</div>
           </div>
           <div className={styles.row2}>
-            <div>贡献地址：{repo.address}</div>
+            <div>
+              贡献地址：
+              <a href={repo.address} target="_blank">
+                {repo.address}
+              </a>
+            </div>
           </div>
           {repo.contributeList.map<React.ReactNode>(item => (
             <div className={styles.item} key={item}>

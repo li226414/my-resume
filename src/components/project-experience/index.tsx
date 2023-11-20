@@ -18,7 +18,7 @@ const projectList = [
     ],
   },
   {
-    name: "yoycol",
+    name: "Yoycol",
     description: [
       "该项目是一款面向海外市场的跨境电商服务平台，实现了“可见即可得”，为定制客户提供了更多的内容和流量。",
       "该项目使用 React + Typescript + antd 作为主要技术栈。",
